@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>india</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href=".syles/style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+  <h1>Choose a Holiday!</h1>
+    
+
+<nav>
+
+  <a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbarrycumbie.github.io%2Furban-giggle%2F" target="_blank">Repo</a>
+<br>
+  <a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbarrycumbie.github.io%2Furban-giggle%2F" target="_blank">Check this page's validity!</a> 
+ </nav>
+
+<!-- Card -->
+    <div class="row">
+      <div class="col-md-6 offset-md-3 card mt-3">
+        <h3 class="card-title">Please enter your email and a password.</h3>
+        <form>
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter email"
+              name="email"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">Password:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="pwd"
+              placeholder="Enter password"
+              name="pswd"
+            />
+          </div>
+          <div class="form-check mb-3">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember" />
+              Remember me
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              type="radio"
+              class="form-check-input"
+              id="radio1"
+              name="optradio"
+              value="A"
+            />Halloween
+            <label class="form-check-label" for="radio1"></label>
+          </div>
+          <div class="form-check">
+            <input
+              type="radio"
+              class="form-check-input"
+              id="radio2"
+              name="optradio"
+              value="B"
+            />Christmas
+            <label class="form-check-label" for="radio2"></label>
+          </div>
+
+          <select
+            id="letterWordsSelect"
+            class="form-select"
+            aria-label="Default select example"
+          >
+            <option selected disabled>Pick Halloween or Christmas above</option>
+          </select>
+
+          <button id="submitForm" type="submit" class="btn btn-primary">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
